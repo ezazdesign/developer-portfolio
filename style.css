@@ -13,7 +13,7 @@ h1 {
 
 .flexible-container {
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -43,4 +43,46 @@ h1 {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.orange {
+    color: orange;
+
+}
+
+.box {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience-area {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+#Stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+
+}
+
+#Puska {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(255, 255, 243);
+}
+
+.foot {
+    color: orangered;
 }
